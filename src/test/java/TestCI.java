@@ -29,6 +29,7 @@ public class TestCI {
         HomePage homePage = new HomePage(driver);
         boolean check = homePage.checkIfContactSaleButtonPresent();
         Assert.assertTrue(check,"The button doesn't exist");
+        System.out.println("Checking branch protection");
     }
 
     @AfterClass
