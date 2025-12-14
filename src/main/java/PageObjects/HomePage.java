@@ -14,7 +14,7 @@ public class HomePage {
         this._driver = driver;
     }
 
-    public boolean checkIfContactSaleButtonPresent(){
+    public boolean checkIfContactSalebuttonPresent(){
         List<WebElement> elementsList = _driver.findElements(By.xpath("//button[text()='Contact Sales']"));
         return elementsList.size() > 0;
     }
